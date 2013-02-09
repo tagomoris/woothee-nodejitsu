@@ -7,5 +7,12 @@
         "express": "3.x",
         "jade": "0.x",
         "woothee": "0.x"
-    }
+    },
+    "scripts": {
+        "start": "app.js"
+    },
+    "engines": {
+        "node": "0.8.x"
+    },
+    "subdomain": "tagomoris.woothee-nodejitsu"
 }
