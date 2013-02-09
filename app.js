@@ -22,8 +22,6 @@ app.get('/', function(req, res){
   var agent = req.query.a || req.get('User-Agent');
   var agente = htmlEscape(agent);
   var parsed = null;
-  console.log(req.query);
-  console.log(parsed);
   if (req.query.a) {
     parsed = woothee.parse(req.query.a);
   }
